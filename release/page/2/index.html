@@ -123,51 +123,74 @@ s=d.getElementsByTagName('script')[0];
 </div>
 
 <div class="container">
-<div class="row">
-<div class="col-md-8">
-<h1>Release 1.3.0 available</h1>
+
+<section id="main">
+  <div>
+    <h1 id="title">Releases Archive</h1>
+        <ul id="list">
+            
+            <h1><a href="/release/0.3.0-alpha/">Release 0.3.0-alpha available</a></h1>
+            <p><small>2018 Nov 22 </small></p>
+
+            <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><img src="releases/1.3.0.jpg" alt="Grand-Canyon"></p>
-<p>Apache Ozone 1.3.0 is released with following features:</p>
+<p><img src="releases/0.3.0.png" alt="arches-haiku"></p>
+<p>Apache Hadoop Ozone 0.3.0-alpha is released.</p>
 <ul>
-<li>Erasure Coding - V1 support (Online reconstruction support)</li>
-<li>Container balancer</li>
-<li>Limit number of rocksdb instances to 1 per disk on high-density datanodes</li>
-<li>Ozone S3 Multi-tenancy Support</li>
-<li>S3 Grpc improvements for metadata path</li>
-<li>Filesystem Optimized and Object Store bucket layout types</li>
+<li>A new S3 compatible rest server is added. Ozone can be used from any
+S3 compatible tools (<a href="https://hadoop.apache.org/ozone/docs/0.3.0-alpha/s3.html">docs</a>, <a href="https://issues.apache.org/jira/browse/HDDS-434">HDDS-434</a>)</li>
+<li>Ozone Hadoop file system URL prefix is renamed from o3:// to o3fs://
+(<a href="https://issues.apache.org/jira/browse/HDDS-651">HDDS-651</a>)</li>
+<li>Extensive testing and stability improvements of OzoneFs.</li>
+<li>Spark, YARN and Hive support and stability improvements.</li>
+<li>Improved Pipeline handling and recovery.</li>
+<li>Separated/dedicated classpath definitions for all the Ozone
+components. (<a href="https://issues.apache.org/jira/browse/HDDS-447">HDDS-447</a>)</li>
 </ul>
-<p>This is a generally available (GA) release.
-It represents a point of API stability and quality that we consider production-ready.</p>
-<p>Image credit: <a href="https://www.flickr.com/photos/geewhypics/50720710687">Grand Canyon - South Rim - Mather Point</a> by <a href="https://www.flickr.com/photos/geewhypics">G. Lamar</a>, <a href="https://creativecommons.org/licenses/by/2.0/deed.en">CC BY 2.0</a> / Text added to original</p>
+<p>This is an alpha release.</p>
+<!-- raw HTML omitted -->
 
-</div>
-<div class="col-md-4" style="padding: 20px;">
-    
-       <p>
-           <a href="https://www.apache.org/dyn/closer.cgi/ozone/1.3.0/ozone-1.3.0.tar.gz"
-              class="btn btn-success">Download tar.gz</a></p>
-       <p>
-           (<a href="https://downloads.apache.org/ozone/1.3.0/ozone-1.3.0.tar.gz.sha512">checksum</a>
-           <a href="https://downloads.apache.org/ozone/1.3.0/ozone-1.3.0.tar.gz.asc">signature</a>)
-       </p>
-       <p>
-           <a href="https://www.apache.org/dyn/closer.cgi/ozone/1.3.0/ozone-1.3.0-src.tar.gz"
-              class="btn btn-warning">Download src</a></p>
-       <p>
-           (<a href="https://downloads.apache.org/ozone/1.3.0/ozone-1.3.0-src.tar.gz.sha512">checksum</a>
-           <a href="https://downloads.apache.org/ozone/1.3.0/ozone-1.3.0-src.tar.gz.asc">signature</a>)
-       </p>
-        
-            <p><a href="https://ozone.apache.org/docs/1.3.0" class="btn btn-primary">Documentation</a>
-       </p>
-        
-    
-    <p><small>2022 Dec 18 </small></p>
 
-</div>
-</div>
+            
+            <h1><a href="/release/0.2.1-alpha/">Release 0.2.1-alpha available</a></h1>
+            <p><small>2018 Oct 1 </small></p>
+
+            <!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p><img src="releases/0.2.1.png" alt="acadia-haiku"></p>
+<p>This is the first version of Apache Hadoop Ozone. Ozone is an Object store for Hadoop built
+using Hadoop Distributed Data Store.</p>
+<p>This release is fully functional, but alpha quality.</p>
+<!-- raw HTML omitted -->
+
+
+            
+        </ul>
+  </div>
+
+<ul class="pagination">
+  <li class="page-item">
+    <a href="/release/" class="page-link" aria-label="First"><span aria-hidden="true">&laquo;&laquo;</span></a>
+  </li>
+  <li class="page-item">
+    <a href="/release/" class="page-link" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
+  </li>
+  <li class="page-item">
+    <a class="page-link" href="/release/">1</a>
+  </li>
+  <li class="page-item active">
+    <a class="page-link" href="/release/page/2/">2</a>
+  </li>
+  <li class="page-item disabled">
+    <a  class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
+  </li>
+  <li class="page-item">
+    <a href="/release/page/2/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
+  </li>
+</ul>
+
+
+</section>
 </div>
 
 <footer>

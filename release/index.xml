@@ -7,7 +7,38 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year} The Apache Software Foundation</copyright>
-    <lastBuildDate>Sun, 18 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ozone.apache.org/release/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://ozone.apache.org/release/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Release 2.0.0 available</title>
+      <link>https://ozone.apache.org/release/2.0.0/</link>
+      <pubDate>Wed, 30 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://ozone.apache.org/release/2.0.0/</guid>
+      <description>Release Notes Apache Ozone 2.0.0 adds 1708 new features, improvements and bug fixes on top of Ozone 1.4.
+  HDDS-10295 | Major | Provide an &amp;ldquo;ozone repair&amp;rdquo; subcommand to update the snapshot info in transactionInfoTable  A new command &amp;ldquo;ozone repair update-transaction&amp;rdquo; is added to update the highest index in OM transactionInfoTable.
+  HDDS-11258 | Blocker | [hsync] Add new OM layout version  A new layout version, HBASE_SUPPORT (7) is added to Ozone Manager that provides the guardrail for the full support of hsync, lease recovery and listOpenFiles APIs for HBase.</description>
+    </item>
+    
+    <item>
+      <title>Release 1.4.1 available</title>
+      <link>https://ozone.apache.org/release/1.4.1/</link>
+      <pubDate>Sun, 24 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://ozone.apache.org/release/1.4.1/</guid>
+      <description>Apache Ozone 1.4.1 is a minor bug fix release that addresses several issues to enhance stability and reliability compared to version 1.4.0. For a detailed list of commits and resolved JIRA issues in this release, please refer to Changes between ozone-1.4.0 and ozone-1.4.1 on GitHub.</description>
+    </item>
+    
+    <item>
+      <title>Release 1.4.0 available</title>
+      <link>https://ozone.apache.org/release/1.4.0/</link>
+      <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://ozone.apache.org/release/1.4.0/</guid>
+      <description>Apache Ozone 1.4.0 is released with following features:
+ Snapshots Erasure Coding V2: offline reconstruction, container balancer support Recon: heat maps, more diagnose info Certificate auto-rotation SCM decommissioning Improved OM decommissioning Symmetric key-based block/container token implementation Quota on FSO bucket  This is a generally available (GA) release. It represents a point of API stability and quality that we consider production-ready.
+Image credit: Hot Springs Mountain Tower by Jeremy Thompson, CC BY 2.</description>
+    </item>
+    
     <item>
       <title>Release 1.3.0 available</title>
       <link>https://ozone.apache.org/release/1.3.0/</link>
